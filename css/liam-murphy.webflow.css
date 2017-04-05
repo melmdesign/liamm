@@ -43,8 +43,7 @@
   -ms-flex: 1;
   flex: 1;
   background-color: #1da1f3;
-  transition: transform 0.3s;
-  transition: box-shadow 0.3s;
+  transition: all 0.5s ease;
 }
 
 .top-div.bottom:hover {
@@ -65,8 +64,7 @@
   background-color: #1da1f3;
   box-shadow: 0 20px 50px 6px rgba(0, 11, 66, .15);
   transform: scale(1.02,1.02);
-  transition: transform 0.3s;
-  transition: box-shadow 0.3s;
+  transition: all 0.5s ease;
 }
 
 .top-div.bottom.right {
@@ -85,8 +83,7 @@
   background-image: url('../images/instagram_gradient_wallpaper_by_jasonzigrino-da28exh.png');
   background-position: 50% 50%;
   background-size: 512px;
-  transition: transform 0.3s;
-  transition: box-shadow 0.3s;
+  transition: all 0.5s ease;
 }
 
 .top-div.bottom.right:hover {
@@ -107,8 +104,7 @@
   background-size: 512px;
   box-shadow: 0 20px 50px 6px rgba(0, 11, 66, .15);
   transform: scale(1.02,1.02);
-  transition: transform 0.3s;
-  transition: box-shadow 0.3s;
+  transition: all 0.5s ease;
 }
 
 .name {
