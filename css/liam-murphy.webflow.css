@@ -27,14 +27,6 @@
   box-shadow: 0 16px 50px 6px rgba(0, 11, 66, .1);
 }
 
-.top-div:hover {
-  min-height: 50vh;
-  padding: 40px;
-  border-radius: 10px;
-  background-color: #fff;
-  box-shadow: 0 20px 50px 6px rgba(0, 11, 66, .15);
-}
-
 .top-div.bottom {
   display: -webkit-box;
   display: -webkit-flex;
@@ -73,6 +65,7 @@
   box-shadow: 0 20px 50px 6px rgba(0, 11, 66, .15);
   transform: scale(1.02,1.02);
   transition: transform 0.3s;
+  transition: box-shadow 0.3s;
 }
 
 .top-div.bottom.right {
@@ -113,6 +106,7 @@
   box-shadow: 0 20px 50px 6px rgba(0, 11, 66, .15);
   transform: scale(1.02,1.02);
   transition: transform 0.3s;
+  transition: box-shadow 0.3s;
 }
 
 .name {
