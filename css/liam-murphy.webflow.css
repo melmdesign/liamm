@@ -19,73 +19,7 @@
   align-items: center;
 }
 
-
-.atvImg {
-  border-radius: 5px;
-  transform-style: preserve-3d;
-  -webkit-tap-highlight-color: rgba(#000,0);
-}
-
-.atvImg img {
-  border-radius: 5px;
-  box-shadow: 0 2px 8px rgba(14,21,47,0.25);
-}
-
-.atvImg-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  transition: all 0.2s ease-out;
-}
-
-.atvImg-container.over .atvImg-shadow {
-  box-shadow: 0 45px 100px rgba(14,21,47,0.4), 0 16px 40px rgba(14,21,47,0.4);
-}
-
-.atvImg-layers {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  overflow: hidden;
-  transform-style: preserve-3d;
-}
-
-.atvImg-rendered-layer {
-  position: absolute;
-  width: 104%;
-  height: 104%;
-  top: -2%; 
-  left: -2%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: cover;
-  transition: all 0.1s ease-out;
-}
-
-.atvImg-shadow {
-  position: absolute;
-  top: 5%; 
-  left: 5%;
-  width: 90%;
-  height: 90%;
-  transition: all 0.2s ease-out;
-  box-shadow: 0 8px 30px rgba(14,21,47,0.6);
-}
-
-.atvImg-shine {
-  position: absolute;
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0;
-  border-radius: 5px;
-  background: linear-gradient(135deg, rgba(255,255,255,.25) 0%,rgba(255,255,255,0) 60%);
-}
-
-.atvImg {
+.top-div {
   min-height: 50vh;
   padding: 40px;
   border-radius: 10px;
@@ -93,7 +27,7 @@
   box-shadow: 0 16px 50px 6px rgba(0, 11, 66, .1);
 }
 
-.atvImg.bottom {
+.top-div.bottom {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -111,7 +45,7 @@
   background-color: #1da1f3;
 }
 
-.atvImg.bottom.right {
+.top-div.bottom.right {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -197,13 +131,13 @@
     -ms-flex-pack: center;
     justify-content: center;
   }
-  .atvImg {
+  .top-div {
     width: 80%;
   }
-  .atvImg.bottom {
+  .top-div.bottom {
     width: 100%;
   }
-  .atvImg.bottom.right {
+  .top-div.bottom.right {
     width: 100%;
     margin-left: 0px;
   }
@@ -216,13 +150,13 @@
 }
 
 @media (max-width: 767px) {
-  .atvImg {
+  .top-div {
     max-height: 90%;
   }
-  .atvImg.bottom {
+  .top-div.bottom {
     height: 60px;
   }
-  .atvImg.bottom.right {
+  .top-div.bottom.right {
     height: 60px;
   }
   .name {
@@ -247,7 +181,7 @@
     height: auto;
     padding-top: 30px;
   }
-  .atvImg.bottom {
+  .top-div.bottom {
     height: 60px;
     margin-bottom: 12px;
   }
