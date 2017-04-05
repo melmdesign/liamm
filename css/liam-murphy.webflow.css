@@ -25,6 +25,7 @@
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 0 16px 50px 6px rgba(0, 11, 66, .1);
+  transition: transform 0.3s;
 }
 
 .top-div:hover {
@@ -53,6 +54,7 @@
   -ms-flex: 1;
   flex: 1;
   background-color: #1da1f3;
+  transition: transform 0.3s;
 }
 
 .top-div.bottom:hover {
@@ -92,6 +94,7 @@
   background-image: url('../images/instagram_gradient_wallpaper_by_jasonzigrino-da28exh.png');
   background-position: 50% 50%;
   background-size: 512px;
+  transition: transform 0.3s;
 }
 
 .top-div.bottom.right:hover {
